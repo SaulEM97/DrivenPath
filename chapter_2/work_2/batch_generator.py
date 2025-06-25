@@ -138,8 +138,6 @@ if __name__ == "__main__":
 
     # Define the output file name with today's date.
     output_file = f"data_2/batch_{date.today()}.csv"
-    import os
-    print(os.getcwd())
 
     # Define number of records: first run - 10_372; next runs random number.
     if str(date.today()) == "2024-09-14":
