@@ -26,3 +26,20 @@
 [2025-07-03T02:30:17.868+0000] {subprocess.py:93} INFO - [0m02:30:17  1 of 4 START sql table model driven_trusted.non_pii_data ....................... [RUN]
 [2025-07-03T02:33:36.529+0000] {subprocess.py:93} INFO - [0m02:33:36  1 of 4 OK created sql table model driven_trusted.non_pii_data .................. [[32mSELECT 750642[0m in 198.65s]
 [2025-07-03T02:33:36.536+0000] {subprocess.py:93} INFO - [0m02:33:36  2 of 4 START sql table model driven_trusted.payment_data ....................... [RUN]
+[2025-07-03T02:33:51.010+0000] {subprocess.py:93} INFO - [0m02:33:51  2 of 4 OK created sql table model driven_trusted.payment_data .................. [[32mSELECT 447906[0m in 14.47s]
+[2025-07-03T02:33:51.015+0000] {subprocess.py:93} INFO - [0m02:33:51  3 of 4 START sql table model driven_trusted.pii_data ........................... [RUN]
+[2025-07-03T02:34:41.574+0000] {subprocess.py:93} INFO - [0m02:34:41  3 of 4 OK created sql table model driven_trusted.pii_data ...................... [[32mSELECT 750642[0m in 50.56s]
+[2025-07-03T02:34:41.579+0000] {subprocess.py:93} INFO - [0m02:34:41  4 of 4 START sql table model driven_trusted.technical_data ..................... [RUN]
+[2025-07-03T02:34:55.302+0000] {subprocess.py:93} INFO - [0m02:34:55  4 of 4 OK created sql table model driven_trusted.technical_data ................ [[32mSELECT 447906[0m in 13.72s]
+[2025-07-03T02:34:55.327+0000] {subprocess.py:93} INFO - [0m02:34:55
+[2025-07-03T02:34:55.328+0000] {subprocess.py:93} INFO - [0m02:34:55  Finished running 4 table models in 0 hours 4 minutes and 37.65 seconds (277.65s).
+[2025-07-03T02:34:55.410+0000] {subprocess.py:93} INFO - [0m02:34:55
+[2025-07-03T02:34:55.411+0000] {subprocess.py:93} INFO - [0m02:34:55  [32mCompleted successfully[0m
+[2025-07-03T02:34:55.412+0000] {subprocess.py:93} INFO - [0m02:34:55
+[2025-07-03T02:34:55.413+0000] {subprocess.py:93} INFO - [0m02:34:55  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[2025-07-03T02:34:56.241+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-03T02:34:57.136+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-07-03T02:34:57.136+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_raw_data_pipeline, task_id=run_dbt_trusted, run_id=manual__2025-07-03T02:28:23.977982+00:00, execution_date=20250703T022823, start_date=20250703T023013, end_date=20250703T023457
+[2025-07-03T02:34:57.576+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-07-03T02:34:57.727+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-03T02:34:57.811+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
